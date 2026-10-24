@@ -23,10 +23,10 @@ Writing outside the learner's project needs their consent. The first time settin
 | Any session on an existing track (found by `scripts/find_tracks.py`, see "Finding the track" in `SKILL.md`) | Show one line with the effective settings and "to change them, say «настройки» / settings". No questions |
 | Existing track, but no `profile.md` (a fresh clone on a new laptop, a friend's copy) | Form 1 only, to create `profile.md`; the track's own settings stay as they are in `PLAN.md` |
 | New track, no `profile.md` yet | The consent question, then the full form (both forms below). Style answers go to `profile.md` (or to `PLAN.md` if declined), goal/depth/block length to `PLAN.md` |
-| New track, `profile.md` exists | The short form: goal, depth, block length, and "As usual (<one-line summary of the profile>)" vs "Customize for this track". "Customize" opens form 1 with profile values as defaults; differing answers go to `PLAN.md` |
+| New track, `profile.md` exists | One line with the effective settings, then the short form: goal, depth, block length, and "As usual (<one-line summary of the profile>)" vs "Customize for this track". "Customize" opens form 1 with profile values as defaults; differing answers go to `PLAN.md` |
 | The learner says «настройки» / "settings" / «давай перенастроим» | Show the effective settings, ask what to change, then ask where: "Only this track" (→ `PLAN.md`) or "Make it my default" (→ `profile.md`) |
 
-Skip any question already answered in the prompt.
+Skip any question already answered in the prompt. Answered means stated in so many words. "As usual / Customize" is never inferred: "like the last track" or "take into account what worked" is context for the plan, not a choice — still ask it.
 
 ## Forms
 

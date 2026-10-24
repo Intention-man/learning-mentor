@@ -28,7 +28,7 @@ The learner came to learn the topic, not to manage the tool. Whenever there is a
 |---|---|
 | track | learning one topic end to end, for example, a database together with a language. Its result is understanding, not a product. Physically — a folder (often the learner's existing project) with a `learning-mentor/` subfolder that holds all the skill's files |
 | stage | a big part of a track, 3–5 blocks |
-| block | one task of 20–60 minutes with a verifiable result; one checkbox in the progress bar |
+| block | one task of 20–60 minutes with a verifiable result; one checkbox in the progress bar. If the learner names a "block" longer than an hour, they likely mean a session: ask whether it is one block or a stage of several blocks before planning |
 | session | one conversation with Claude Code. A track may take one session or many: track files connect them, not the conversation |
 | profile | the learner's usual settings, shared by all tracks (`~/.claude/learning-mentor/profile.md`, only if the learner agreed) |
 
