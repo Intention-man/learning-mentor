@@ -21,6 +21,7 @@ The learner configures how they learn; out of the box they get a configuration t
 
 ## Later
 
+- More emoji in mentor messages as signposts — for example: 🧠 think yourself, ✅ done, 📊 numbers, ⚠️ pitfall, 🔁 try again. Most of a track is text and code; consistent markers make long messages easier to scan and more fun to read. A setting with a sensible default, like the rest.
 - A dedicated slash command for settings, instead of the «настройки» / "settings" phrase.
 - An HTML page with track progress — an option in the settings form.
 - Short answer first, details on demand: after each comment on a learner's answer, a compact verdict, with the full explanation one click away. The Claude Code VS Code panel shows `<details>` as raw text (checked 2026-10-23), so it needs another way: an HTML page with collapsible blocks, clickable "More / Next" options, or a one-character signal such as `?` for "expand".
